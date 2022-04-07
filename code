@@ -217,7 +217,7 @@ void enterPassword() {
           noTone(buzzer);
           screenOffMsg = 0; 
         }
-           .
+           
         else if (tempPassword != password) { 
           lcd.setCursor(0,1);
           lcd.print("Wrong! Try Again");
